@@ -11,6 +11,7 @@ namespace CSGame1
 {
     public class GameplayScreen : GameScreen
     {
+        //cringe
         Player player;
         public override void LoadContent()
         {
