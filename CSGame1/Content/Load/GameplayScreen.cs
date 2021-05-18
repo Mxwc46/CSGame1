@@ -11,7 +11,6 @@ namespace CSGame1
 {
     public class GameplayScreen : GameScreen
     {
-
         Player player;
         public override void LoadContent()
         {
