@@ -77,10 +77,10 @@ namespace CSGame1
         public ScreenManager()
         {
             Dimensions = new Vector2(640, 480);
-            currentScreen = new SplashScreen();
+            currentScreen = new GameplayScreen();
             xmlGameScreenManager = new XmlManager<GameScreen>();
             xmlGameScreenManager.Type = currentScreen.Type;
-            currentScreen = xmlGameScreenManager.Load("Content/Load/SplashScreen.xml");
+            //currentScreen = xmlGameScreenManager.Load("Content/Load/SplashScreen.xml");
         }
         public void LoadContent(ContentManager Content)
         {
