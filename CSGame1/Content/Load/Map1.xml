@@ -24,4 +24,26 @@
       <Row>[2:0][2:0][2:0][2:0][0:0][0:0][0:0][0:0][2:0][2:0][2:0][2:0]</Row>
     </TileMap>
   </Layer>
+
+  <Layer>
+    <Image>
+      <Path>Gameplay/TileSheets/Textures</Path>
+    </Image>
+    <SolidTiles>[2:0][1:0]</SolidTiles>
+    <TileMap>
+      <Row>[2:x][2:x][2:x][2:x][x:x][x:x][x:x][x:x][2:x][2:x][2:x][2:x]</Row>
+      <Row>[2:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][2:x]</Row>
+      <Row>[2:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][2:x]</Row>
+      <Row>[2:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][2:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][1:x][1:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][1:x][1:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x]</Row>
+      <Row>[2:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][2:x]</Row>
+      <Row>[2:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][2:x]</Row>
+      <Row>[2:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][x:x][2:x]</Row>
+      <Row>[2:x][2:x][2:x][2:x][x:x][x:x][x:x][x:x][2:x][2:x][2:x][2:x]</Row>
+
+    </TileMap>
+  </Layer>
 </Map>
