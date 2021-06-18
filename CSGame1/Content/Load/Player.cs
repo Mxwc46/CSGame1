@@ -33,8 +33,8 @@ namespace CSGame1
         public void Update(GameTime gameTime)
         {
             Image.IsActive = true;
-            //if (Velocity.X == 0)
-            if (true)
+            if (Velocity.X == 0)
+            //if (true)
             {
                 if (InputManager.Instance.KeyDown(Keys.S))
                 {
@@ -49,8 +49,8 @@ namespace CSGame1
                 else
                     Velocity.Y = 0;
             }
-            //if (Velocity.Y == 0)
-            if (true)
+            if (Velocity.Y == 0)
+            //if (true)
             {
                 if (InputManager.Instance.KeyDown(Keys.D))
                 {

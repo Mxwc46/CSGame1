@@ -21,6 +21,7 @@ namespace CSGame1
             XmlManager<Player> playerLoader = new XmlManager<Player>();
             XmlManager<Map> mapLoader = new XmlManager<Map>();
             player = playerLoader.Load("Content/Load/Player.xml");
+            player.Image.Position = new Vector2(50, 50);
             map = mapLoader.Load("Content/Load/Map1.xml");
             player.LoadContent();
             map.LoadContent();
