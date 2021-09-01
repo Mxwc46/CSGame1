@@ -11,20 +11,16 @@
   </Item>
 
   <Item>
-    <Image>
-      <Text>Load Game</Text>
-    </Image>
-  </Item>
-
-  <Item>
-    <Image>
-      <Text>Options</Text>
-    </Image>
-  </Item>
-
-  <Item>
+    <LinkType>Menu</LinkType>
+    <LinkID>Content/Load/TestMenu.xml</LinkID>
     <Image>
       <Text>Credits</Text>
+    </Image>
+  </Item>
+
+  <Item>
+    <Image>
+      <Text>Exit Game</Text>
     </Image>
   </Item>
 </Menu>
